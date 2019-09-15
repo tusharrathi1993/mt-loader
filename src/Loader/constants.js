@@ -13,8 +13,8 @@ const size = {
 const DIMENTION = {
 	mobileS: 50,
 	tablet: 100,
-	laptopL: 150,
-	desktopL: 200
+	laptopL: 100,
+	desktopL: 150
 };
 
 const device = {
@@ -29,6 +29,8 @@ const device = {
 };
 
 export const breakPoints = breakpointsCss => css`
+	${breakpointsCss(DIMENTION.mobileS)};
+
 	@media ${device.mobileS} {
 		${breakpointsCss(DIMENTION.mobileS)};
 	}
