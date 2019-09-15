@@ -11,7 +11,7 @@ const size = {
 };
 
 const DIMENTION = {
-	mobileS: 200,
+	mobileS: 50,
 	tablet: 100,
 	laptopL: 150,
 	desktopL: 200

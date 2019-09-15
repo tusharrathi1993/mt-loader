@@ -3,6 +3,7 @@ import styled from 'styled-components';
 import Bar from './bar';
 import Circle from './circle';
 import Star from './star';
+import LoaderText, { LoadingDots } from './loaderText';
 
 const MTLoader = styled.div`
 	position: relative;
@@ -11,4 +12,4 @@ const MTLoader = styled.div`
 	margin: auto;
 `;
 
-export { MTLoader, Star, Bar, Circle };
+export { MTLoader, Star, Bar, Circle, LoaderText, LoadingDots };

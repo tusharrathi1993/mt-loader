@@ -51,11 +51,11 @@ const getMediaQueriesCSS = size => css`
 `;
 
 const Circle = styled.div`
-	position: absolute;
+	position: relative;
 	text-align: center;
+	margin: 0 auto;
 	top: 50%;
-	left: 50%;
-	transform: translate(-50%, -50%);
+	transform: translate(0, -50%);
 	border-radius: 50%;
 	background-color: white;
 	animation: ${boxShadowGrow} 1s ease-in-out infinite both;
