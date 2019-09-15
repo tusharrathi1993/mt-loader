@@ -7,9 +7,10 @@ import LoaderText, { LoadingDots } from './loaderText';
 
 const MTLoader = styled.div`
 	position: relative;
-	width: 100vw;
+	width: 33vw;
 	height: 100vh;
 	margin: auto;
+	display: inline-block;
 `;
 
 export { MTLoader, Star, Bar, Circle, LoaderText, LoadingDots };
