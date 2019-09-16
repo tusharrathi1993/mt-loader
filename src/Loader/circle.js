@@ -58,7 +58,7 @@ const Circle = styled.div`
 	transform: translate(0, -50%);
 	border-radius: 50%;
 	background-color: white;
-	animation: ${boxShadowGrow} 1s ease-in-out infinite both;
+	animation: ${boxShadowGrow} 1s ease-in-out 1 both;
 
 	&::before {
 		position: absolute;
